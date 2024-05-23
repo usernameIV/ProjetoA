@@ -8,10 +8,12 @@ import static java.lang.StringTemplate.STR;
 public class Main {
 
     /*
+
     Alunos:
     Danton Filipe Sabino Silva
     Gabriel Augusto Ferreira
     Renan Oliveira Lima
+
      */
 
     public static Long generateRandomUserId(int numCharacters) {
