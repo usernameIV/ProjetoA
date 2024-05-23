@@ -1,4 +1,4 @@
-class User{
+class User extends Person{
 
     private long id;
     private String name;
