@@ -18,7 +18,6 @@ class Loan {
         this.reservationDate = reservationDate;
         this.devolutionDate = devolutionDate;
     }
-
     public int getReserveId() {
         return reserveId;
     }
