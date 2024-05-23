@@ -41,28 +41,6 @@ class User{
         this.userRegisterDate = userRegisterDate;
         this.birthdayDate = birthdayDate;
     }
-
-    @Override
-    public String toString() {
-        return "User {" + '\n' +
-                "id= " + id + '\n' +
-                "name= " + name + '\n' +
-                "publicPlace= " + publicPlace + '\n' +
-                "neighbourhood= " + neighbourhood + '\n' +
-                "city= " + city + '\n' +
-                "state= " + state + '\n' +
-                "zipCode= " + zipCode + '\n' +
-                "individualRegistry= " + individualRegistry + '\n' +
-                "identityCard= " + identityCard + '\n' +
-                "phone= " + phone + '\n' +
-                "email= " + email + '\n' +
-                "userRegisterDate= " + userRegisterDate + '\n' +
-                "birthdayDate= " + birthdayDate + '\n' +
-                '}';
-
-    }
-
-
     public long getId() {
         return id;
     }
