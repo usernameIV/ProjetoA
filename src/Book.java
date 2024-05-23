@@ -27,21 +27,6 @@ class Book {
         this.registerDate = registerDate;
         this.situation = situation;
     }
-
-    @Override
-    public String toString() {
-        return "Book {" + '\n' +
-                "Catalog number = " +  + catalogNumber + '\n' +
-                "title = " + title + '\n' +
-                "author = " + author + '\n' +
-                "category = " + category + '\n' +
-                "editor = " + editor + '\n' +
-                "year = " + year + '\n' +
-                "Register date = " + registerDate + '\n' +
-                "situation = " + situation +
-                '}';
-    }
-
     public long getCatalogNumber() {
         return catalogNumber;
     }
