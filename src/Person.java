@@ -12,7 +12,6 @@ public class Person {
     private String email;
     private String userRegisterDate;
     private String birthdayDate;
-
     public Person(long id, String name, String publicPlace, String neighbourhood, String city, String state, String zipCode, long individualRegistry, long identityCard, String phone, String email, String userRegisterDate, String birthdayDate) {
         this.id = id;
         this.name = name;
